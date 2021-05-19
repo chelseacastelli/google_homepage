@@ -5,14 +5,19 @@
 </head>
 <body>
 
-    <div id="box-container"></div>
-        <div id="logo"></div>
-            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        <div id="logo-container">
+            <img id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
-        <form action="#">
-            <input id="search-bar" type="text"><br><br>
-            <input type="submit">
-        </form>
-    </div>
+        <div id="search-container">
+            <form action="#">
+                <div id='search'>
+                    <input id="search-bar" type="text"><br><br>
+                </div>
+                <div id="button-container">
+                    <input class="btn" type="submit" value="Google Search">
+                    <input class="btn" type="submit" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </div>
 </body>
 </html>
